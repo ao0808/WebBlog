@@ -1,2 +1,2 @@
 # WebBlog
-Веб блога созданный с помощью Java, Spring Boot
+Веб блог созданный с помощью Java, Spring Boot
