@@ -14,6 +14,11 @@
     </header>
     <div class="container">
         <h1>Блог сайта</h1>
+        <div th:each="el : ${posts}">
+            <h3 th:text="${el.title"}/>
+            <p th:text="${el.anons"}/>
+            <a th:href="'/blog/' + ${el.id}">Детальнее</a>
+        </div>
     </div>
     <div th:insert="blocks/footer :: footer">
     </div>
